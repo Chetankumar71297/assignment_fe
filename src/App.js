@@ -17,7 +17,7 @@ function App() {
     <div className="dark">
       <Router>
         <Routes>
-<Route path="/user/:userId" element={<User />} />
+<Route path="/user/:userId" element={!token ? <User /> : <Navigate to="/" />} />
           <Route
             path="/"
             element={token ? <Home /> : <Navigate to="/login" />}
