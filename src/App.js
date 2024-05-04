@@ -23,16 +23,14 @@ function App() {
             element={token ? <Home /> : <Navigate to="/login" />}
           />
           <Route
-            exact
             path="/login"
             element={!token ? <Login /> : <Navigate to="/" />}
           />
           <Route
-            exact
             path="/register"
             element={!token ? <Register /> : <Navigate to="/" />}
           />
-          <Route exact path="/user/findUser/:userId" element={<User />} />
+          <Route path="/user/findUser/:userId" element={<User />} />
         </Routes>
       </Router>
     </div>
