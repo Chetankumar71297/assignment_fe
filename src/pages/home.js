@@ -6,7 +6,7 @@ import { logoutUser } from "../features/userSlice";
 function Home() {
   const { user } = useSelector((state) => state.user);
   const { _id } = user;
-  const profileLink = `http://localhost:3000/user/findUser/${_id}`;
+  const profileLink = `https://assignment-fe.onrender.com/user/findUser/${_id}`;
   const dispatch = useDispatch();
 
   const handleLogout = async (e) => {
