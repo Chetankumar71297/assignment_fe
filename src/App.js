@@ -30,7 +30,7 @@ function App() {
             path="/register"
             element={!token ? <Register /> : <Navigate to="/" />}
           />
-          <Route path="/user" element={<User />} />
+          <Route path="/user/:userId" element={<User />} />
         </Routes>
       </Router>
     </div>
