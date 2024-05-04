@@ -19,7 +19,6 @@ function App() {
         <Routes>
 <Route path="/user/:userId" element={<User />} />
           <Route
-            exact
             path="/"
             element={token ? <Home /> : <Navigate to="/login" />}
           />
