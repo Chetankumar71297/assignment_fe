@@ -17,6 +17,7 @@ function App() {
     <div className="dark">
       <Router>
         <Routes>
+<Route path="/user/:userId" element={<User />} />
           <Route
             exact
             path="/"
@@ -30,7 +31,7 @@ function App() {
             path="/register"
             element={!token ? <Register /> : <Navigate to="/" />}
           />
-          <Route path="/user/:userId" element={<User />} />
+          
         </Routes>
       </Router>
     </div>
