@@ -30,6 +30,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## `Link for backend codebase:`
+
+[https://github.com/Chetankumar71297/assignment_be/tree/main](https://github.com/Chetankumar71297/assignment_be/tree/main)
+
 ## `Live demo of the project:`
 
 [https://assignment-fe.onrender.com](https://assignment-fe.onrender.com)
